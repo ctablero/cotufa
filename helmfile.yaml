@@ -1,0 +1,8 @@
+releases:
+  - name: webapp
+    chart: ./webapp
+    namespace: my-ws
+    version: 0.1.0
+    wait: true
+    values:
+      - "./webapp-values.yaml"

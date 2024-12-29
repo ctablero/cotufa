@@ -1,0 +1,8 @@
+imageName: "nginx"
+imageTag: "alpine"
+memoryRequest: "128Mi"
+cpuRequest: "200m"
+memoryLimit: "256Mi"
+cpuLimit: "500m"
+containerPort: 80
+servicePort: 80
