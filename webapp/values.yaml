@@ -1,8 +1,12 @@
 imageName: "nginx"
 imageTag: "alpine"
 memoryRequest: "10Mi"
-cpuRequest: "200m"
-memoryLimit: "128Mi"
-cpuLimit: "500m"
+cpuRequest: "10m"
+memoryLimit: "96Mi"
+cpuLimit: "50m"
 containerPort: 80
 servicePort: 80
+hpaMinReplicas: 2
+hpaMaxReplicas: 8
+hpaTargetCPUUtilizationPercentage: 45
+hpaTargetMemoryUtilizationPercentage: 60
