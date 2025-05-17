@@ -17,9 +17,3 @@ spec:
       target:
         type: Utilization
         averageUtilization: {{ .Values.hpaTargetCPUUtilizationPercentage }}
-  - type: Resource
-    resource:
-      name: memory
-      target:
-        type: Utilization
-        averageUtilization: {{ .Values.hpaTargetMemoryUtilizationPercentage }}
