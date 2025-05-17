@@ -9,4 +9,3 @@ servicePort: 80
 hpaMinReplicas: 2
 hpaMaxReplicas: 8
 hpaTargetCPUUtilizationPercentage: 45
-hpaTargetMemoryUtilizationPercentage: 60
